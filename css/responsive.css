@@ -1,0 +1,28 @@
+@media screen and (max-width: 575px){
+    h1,h2 {
+       font-size: 2.5rem;
+   }
+   
+}
+
+@media screen and (max-width: 1200px){
+    .header-btn{
+       display: none !important;
+    }
+     h1{
+        font-size: 6rem !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .all-counters{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .owl-carousel .owl-nav { display: none !important; }
+    h1,h2{
+        font-size: 4rem !important;
+    }
+}
